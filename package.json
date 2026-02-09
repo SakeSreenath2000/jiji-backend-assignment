@@ -1,0 +1,28 @@
+{
+  "name": "jiji-backend-assignment",
+  "version": "1.0.0",
+  "description": "1. npm install 2. Copy .env.example → .env with your Supabase keys 3. Run supabase/schema.sql in your project 4. Upload rag-presentation.ppt & rag-video.mp4 to jiji bucket 5. node server.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SakeSreenath2000/jiji-backend-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SakeSreenath2000/jiji-backend-assignment/issues"
+  },
+  "homepage": "https://github.com/SakeSreenath2000/jiji-backend-assignment#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.95.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1"
+  }
+}
